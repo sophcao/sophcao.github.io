@@ -3,12 +3,24 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import Hero from './sections/Hero'
+import About from './sections/About'
+import Experience from './sections/Experience'
+import Projects from './sections/Projects'
+import Navbar from './components/Navbar'
+
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      {/* <div>
         <h1>hi, i'm sophia</h1>
         <p>software engineer</p>
         <a href="https://vite.dev" target="_blank">
@@ -25,10 +37,7 @@ function App() {
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      </div> */}
     </>
   )
 }
