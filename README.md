@@ -1,29 +1,15 @@
-# React + Vite
+# sophia cao's personal website 👩‍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
+built with react + vite
 
 ## Workflow
-commit + push changes. then run `npm run deploy`, which creates a gh-pages branch that contains the built site. deploying from there
+`npm run dev` to open local host; vite monitors for updates
+
+commit + push changes; run `npm run deploy`, which creates a gh-pages branch that contains the built site. deploying from there
 
 ## 🎨 color codes
 
 | Color   | Hex |
 | :------ | :-: |
-| Alice   | 25  |
-| Bob     | 30  |
-| Malroy  | 45  |
+| Dark Gray   | #272727  |
 
