@@ -1,0 +1,21 @@
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4rem;
+
+    /* max-width: 1100px; */
+    margin: 0 auto;
+}
+
+.about-illustration {
+    width: 160px;
+    height: auto;
+}
+
+.about-text {
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.7;
+}
+  

@@ -1,0 +1,17 @@
+/* to reuse for each section...maybe */
+.section {
+  width: 100%;
+  min-height: 40vh;
+  padding: 0 20vw;
+  /* padding-left: clamp(2rem, 20vw, 14rem); */
+  /* padding-right: clamp(2rem, 20vw, 14rem); */
+  box-sizing: border-box;
+  scroll-margin-top: 90px;
+  /* border: 1px solid red; */
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}

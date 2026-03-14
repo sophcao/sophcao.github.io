@@ -3,8 +3,8 @@ import './App.css'
 import Hero from './components/Home'
 import About from './components/About'
 import Experience from './components/Experience'
-import Projects from './components/Projects'
 import Navbar from './components/Navbar'
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <Hero />
       <About />
       <Experience />
-      <Projects />
+      <Footer />
     </>
   )
 }

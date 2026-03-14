@@ -18,7 +18,6 @@ function Navbar() {
         <div className="nav-links">
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
-          <a href="#projects">Projects</a>
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 # sophia cao's personal website 👩‍💻
 
 built with react + vite
+all artwork is mine
 
 ## Workflow
 `npm run dev` to open local host; vite monitors for updates
@@ -12,4 +13,4 @@ commit + push changes; run `npm run deploy`, which creates a gh-pages branch tha
 | Color   | Hex |
 | :------ | :-: |
 | Dark Gray   | #272727  |
-
+| Blue for links   | #6e75f8  |
