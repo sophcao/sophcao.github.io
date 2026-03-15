@@ -22,24 +22,28 @@ function Experience() {
     {
       company: "Apple ",
       title: "Incoming Software Engineer",
+      time: "July 2026 - Present",
       desc: "Apple Services Engineering",
       link: "https://www.apple.com/"
     },
     {
       company: "Amazon Web Services",
       title: "Software Engineering Intern",
-      desc: "Infrastructure Security",
+      time: "May 2025 - August 2025",
+      desc: "Infrastructure Security ",
       link: "https://aws.amazon.com/"
     },
     {
       company: "Nowadays (YC S23)",
       title: "Software Engineering Intern",
+      time: "January 2024 - May 2024",
       desc: "Data Collection Platform",
       link: "https://www.nowadays.ai/"
     },
     {
       company: "University of Rochester",
       title: "NSF REU Research Fellow",
+      time: "May 2023 - July 2023",
       desc: "Automated Defect Detection in 3D Printing",
       link: "https://www.hajim.rochester.edu/dsc/"
     },
@@ -97,11 +101,11 @@ function Experience() {
                 <motion.div
                   key={i}
                   className="experience-card"
-                  whileHover={{ scale: 1.05 }}
+                  whileHover={{ scale: 1.04 }}
                   >
                   <h3 className="experience-company">{experience.company}</h3>
                   <h4>{experience.title}</h4>
-                  {/* <p className="time">{experience.time}</p> */}
+                  <p className="time">{experience.time}</p>
                   <p>{experience.desc}</p>
                 </motion.div>
               </a>

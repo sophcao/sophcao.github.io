@@ -32,7 +32,7 @@ function About() {
           </p>
 
           <p>
-            Outside of coding, I enjoy design, reading, strength training, and traveling. 
+            Outside of coding, I enjoy reading, strength training, and traveling. And drawing space-themed doodles, apparently.
           </p>
         </motion.div>
 

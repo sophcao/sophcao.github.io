@@ -1,7 +1,8 @@
 # sophia cao's personal website 👩‍💻
 
 built with react + vite
-all artwork is mine
+
+all artwork is original
 
 ## Workflow
 `npm run dev` to open local host; vite monitors for updates

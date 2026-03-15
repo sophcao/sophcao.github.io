@@ -2,6 +2,8 @@
     display: flex;
     gap: 4rem;
     width: 100%;
+    justify-content: center;
+    align-items: flex-start;
 }
 
   /* telescope col */
@@ -14,6 +16,8 @@
     width: 120px;
     position: absolute;
     left: 0;
+    /* left: 20%; */
+    transform: translateX(-10%);
     transform-origin: left center;
 }
   
@@ -21,13 +25,13 @@
 .experience-list {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    flex: 1;
+    gap: 1rem;
+    width: 600px;
 }
 .experience-card {
     background: #333;
     width: 80%;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     border-radius: 12px;
     /* border: 10px dashed #525252; */
     /* min-width: 400px; */
@@ -62,4 +66,17 @@
     width: 100%;
 }
 
-      
+.experience-card h3,
+.experience-card h4,
+.experience-card p {
+  margin: 0.3rem 0;
+}
+
+.experience-card h4 {
+    font-weight: 500;
+  }
+
+.time {
+    opacity: 0.7;
+    font-style: italic;
+}
