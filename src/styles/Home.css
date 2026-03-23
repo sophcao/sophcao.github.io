@@ -29,3 +29,155 @@
   margin: 0;
 }
 
+.home {
+  position: relative;
+  overflow: hidden;
+}
+
+/* background for space decor */
+.hero-background {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2; /* to put text on top of planet stuff*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* planets */
+.planet {
+  position: absolute;
+  /* opacity: 0.9; */
+}
+
+/* planet coords */
+
+/* moon dotted */
+.planet1 {
+  top: 22%;
+  left: 35%;
+  width: 68px;
+}
+
+/* saturn tilt left */
+.planet2 {
+  top: 65%;
+  right: 12%;
+  width: 80px;
+}
+
+/* mercury textured */
+.planet3 {
+  top: 17%;
+  left: 18%;
+  width: 68px;
+}
+
+/* idk what this one is...looks like a stone garden */
+.planet4 {
+  top: 28%;
+  right: 18%;
+  width: 65px;
+}
+
+/* mercury wavy */
+.planet5 {
+  bottom: 16%;
+  left: 33%;
+  width: 70px;
+}
+
+/* saturn tilt right */
+.planet6 {
+  top: 16%;
+  left: 58%;
+  width: 75px;
+}
+
+/* saturn three rings */
+.planet7 {
+  bottom: 40%;
+  left: 14%;
+  width: 95px;
+}
+
+/* moon ovals */
+.planet8 {
+  bottom: 20%;
+  left: 60%;
+  width: 70px;
+}
+
+
+.shooting-star {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    white,
+    rgba(255,255,255,0.6),
+    transparent
+  );
+
+  border-radius: 999px;
+
+  opacity: 0;
+}
+
+@keyframes shoot {
+  0% {
+    transform: translate(0,0) rotate(315deg);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  40% {
+    transform: translate(-500px,500px) rotate(315deg);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.star1 {
+  top: 10%;
+  left: 50%;
+  animation-delay: 5s;
+}
+
+.star2 {
+  top: 30%;
+  left: 70%;
+  animation-delay: 9s;
+}
+
+.star3 {
+  top: 5%;
+  left: 30%;
+  animation-delay: 7s;
+}
+
+.star4 {
+  top: 5%;
+  left: 100%;
+  animation-delay: 4s;
+}
+
+.shooting-star.active {
+  animation: shoot 2.5s linear;
+}

@@ -19,3 +19,15 @@
     line-height: 1.7;
 }
   
+
+.umich {
+  font-weight: 750;
+  color: #6e75f8;
+}
+
+/* TODO: hover over umich text and "go blue!" appears?*/
+/* TODO: get rid of underline */
+.umich:hover{
+  font-weight: 750;
+  color: #6e75f8;
+}

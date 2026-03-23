@@ -26,13 +26,13 @@ function About() {
           viewport={{ once: true }}
         >
           <p>
-            I'm a software engineer and alumni of the University of Michigan, where I studied computer science. 
+            I'm a software engineer and alumni of the <a href="https://umich.edu/" className="umich">University of Michigan</a>, where I studied computer science. 
             I'm interested in backend engineering, infrastructure,
             and building tools that make people's lives easier.
           </p>
 
           <p>
-            Outside of coding, I enjoy reading, strength training, and traveling. And drawing space-themed doodles, apparently.
+            Outside of coding, I enjoy reading, strength training, and traveling. And drawing space doodles, apparently.
           </p>
         </motion.div>
 

@@ -28,16 +28,22 @@
     gap: 1rem;
     width: 600px;
 }
-.experience-card {
+/* .experience-card {
     background: #333;
     width: 80%;
     padding: 1rem 2rem;
     border-radius: 12px;
-    /* border: 10px dashed #525252; */
-    /* min-width: 400px; */
-  
     transition: box-shadow 0.2s;
-}
+} */
+
+.experience-card {
+    background: #333;
+    padding: 1rem 2rem;
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.06);
+    box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+    transition: transform 0.2s ease, box-shadow 0.25s ease;
+  }
 
 /* so the text doesn't show up hyperlinked */
 .experience-link {
