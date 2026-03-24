@@ -174,14 +174,14 @@ function Hero() {
                 wrapper="h1"
                 className="hero-title"
                 cursor={true}
-                speed={4}
+                speed={1.2}
                 repeat={0}
             />  
             <motion.p
                 className="hero-subtitle"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 1.4, duration: 1.5}}
+                transition={{ delay: 1.5, duration: 1.5}}
             >
                 Software Engineer
             </motion.p>

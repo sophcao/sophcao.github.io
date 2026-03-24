@@ -65,7 +65,7 @@
     bottom: -3px;
     width: 0%;
     height: 1.5px;
-    background-color: #ffffff;
+    background-color: #6e75f8;
     transition: width 0.5s ease;
 }
 .experience-card:hover .experience-company::after {

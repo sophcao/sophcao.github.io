@@ -22,8 +22,12 @@
 
 .umich {
   font-weight: 750;
-  color: #6e75f8;
+  /* color: #6e75f8; */
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.1s ease;
 }
+
 
 /* TODO: hover over umich text and "go blue!" appears?*/
 /* TODO: get rid of underline */
